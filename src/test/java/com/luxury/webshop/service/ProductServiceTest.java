@@ -1,3 +1,5 @@
+// src/test/java/com/luxury/webshop/service/ProductServiceTest.java
+
 package com.luxury.webshop.service;
 
 import com.luxury.webshop.exception.NotFoundException;
@@ -14,7 +16,14 @@ class ProductServiceTest {
     @Test
     void getById_returnsProductOrThrows() {
         ProductRepository repo = new ProductRepository();
-        repo.saveAll(List.of(Product.builder().id(10).name("Test").price(1.0).build()));
+        repo.saveAll(List.of(
+                Product.builder()
+                        .id(10)
+                        .name("Test")
+                        .price(1.0)
+                        .build()
+        ));
+
         ProductService service = new ProductService(repo);
 
         assertEquals(10, service.getById(10).getId());

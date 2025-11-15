@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/controller/ProductController.java
+
 package com.luxury.webshop.controller;
 
 import com.luxury.webshop.model.Product;
@@ -8,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin // allow requests from frontend
+@CrossOrigin
 public class ProductController {
     private final ProductService service;
 

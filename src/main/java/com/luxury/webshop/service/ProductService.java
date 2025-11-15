@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/service/ProductService.java
+
 package com.luxury.webshop.service;
 
 import com.luxury.webshop.exception.NotFoundException;
@@ -9,6 +11,7 @@ import java.util.List;
 
 @Service
 public class ProductService {
+
     private final ProductRepository repo;
 
     public ProductService(ProductRepository repo) {

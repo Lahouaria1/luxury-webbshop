@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/repository/SampleDataLoader.java
+
 package com.luxury.webshop.repository;
 
 import com.luxury.webshop.model.Product;
@@ -21,12 +23,22 @@ public class SampleDataLoader {
             Product.builder().id(1).name("Leather Wallet")
                 .description("Premium calf leather wallet")
                 .price(79.0).imageUrl("/img/wallet.jpg").stock(25).build(),
+
             Product.builder().id(2).name("Silk Scarf")
                 .description("100% silk")
                 .price(59.0).imageUrl("/img/scarf.jpg").stock(40).build(),
+
             Product.builder().id(3).name("Gold Cufflinks")
                 .description("18k gold plated")
-                .price(149.0).imageUrl("/img/cufflinks.jpg").stock(10).build()
+                .price(149.0).imageUrl("/img/cufflinks.jpg").stock(10).build(),
+          
+            Product.builder().id(4).name("Luxury Perfume")
+                .description("Exclusive fragrance 50ml")
+                .price(199.0).imageUrl("/img/perfume.jpg").stock(15).build(),
+
+            Product.builder().id(5).name("Diamond Necklace")
+                .description("Crystal diamond necklace, 925 silver")
+                .price(299.0).imageUrl("/img/necklace.jpg").stock(5).build()          
         ));
     }
 }

@@ -1,4 +1,7 @@
+// src/main/java/com/luxury/webshop/model/Order.java
+
 package com.luxury.webshop.model;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class Order {
-    private String id;                 // e.g. UUID
+    private String id;                
     private CustomerInfo customerInfo;
     private List<OrderItem> items;
     private double totalAmount;

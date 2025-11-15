@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/WebshopApplication.java
+
 package com.luxury.webshop;
 
 import org.springframework.boot.SpringApplication;

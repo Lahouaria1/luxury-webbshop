@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/dto/OrderItemRequest.java
+
 package com.luxury.webshop.dto;
 
 import jakarta.validation.constraints.Min;
@@ -6,8 +8,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderItemRequest {
+
     @NotNull
     private Long productId;
 

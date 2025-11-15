@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/service/OrderService.java
+
 package com.luxury.webshop.service;
 
 import com.luxury.webshop.dto.CreateOrderRequest;
@@ -29,6 +31,7 @@ public class OrderService {
     }
 
     public Order createOrder(CreateOrderRequest req) {
+
         // Validate and build order items
         List<OrderItem> items = new ArrayList<>();
 

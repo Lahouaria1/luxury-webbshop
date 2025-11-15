@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/exception/GlobalExceptionHandler.java
+
 package com.luxury.webshop.exception;
 
 import org.springframework.http.HttpStatus;

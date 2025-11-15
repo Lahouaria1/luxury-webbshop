@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/model/CustomerInfo.java
+
 package com.luxury.webshop.model;
 
 import lombok.AllArgsConstructor;

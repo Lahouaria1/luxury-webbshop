@@ -1,3 +1,5 @@
+// src/main/java/com/luxury/webshop/dto/CreateOrderRequest.java
+
 package com.luxury.webshop.dto;
 
 import jakarta.validation.constraints.Email;
@@ -10,8 +12,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class CreateOrderRequest {
+
     @NotBlank
     private String name;
 
